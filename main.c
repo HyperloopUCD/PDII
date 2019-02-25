@@ -3,6 +3,7 @@
 int sensorstate(double,double);
 void obtain_value(double);
 
+
 int sensorcond, cond;
 double mean;
 double sd;
@@ -14,10 +15,13 @@ double standardDeviation;
 double C_Las0,C_Las1;
 //Distance Lidar Sesnors
 double SX_Las0,SX_Las1;
-//Pressure (Propulsion) Sensors
+//Pressure (Braking) Sensors
 double B_Pres0,B_Pres1,B_Pres2,B_Pres3,B_Pres4,B_Pres5,B_Pres6,B_Pres7,B_Pres8,B_Pres9;
+//Thermocouple Probes for Braking
 double B_Tem0,B_Tem1;
+//Pressure (Propulsion) Sensors
 double P_Pres0,P_Pres1,P_Pres2,P_Pres3,P_Pres4;
+//Propulsion Pressure Sensors
 double P_Tem0,P_Tem1,P_Tem2,P_Tem3,P_Tem4,P_Tem5,P_Tem6,P_Tem7,P_Tem8;
 
 int main()
@@ -57,6 +61,7 @@ int main()
     return 0;
 }
 
+/*
 int sensor_state(double value, double sd)
 {
     if( value < 2 * sd)
@@ -105,4 +110,5 @@ void obtain_value(double val)
     {
         printf("failure");
     }
+    */
 }
