@@ -28,7 +28,7 @@ double B_Pres0,B_Pres1,B_Pres2,B_Pres3,B_Pres4,B_Pres5,B_Pres6,B_Pres7,B_Pres8,B
 //Thermocouple Probes for Braking (PAIR)
 double B_Tem0,B_Tem1;
 //Pressure (Propulsion) Sensors (NON-PAIR)
-double P_Pres0,P_Pres1,P_Pres2,P_Pres3,P_Pres4;
+double P_Pres0,P_Pres1,P_Pres2,P_Pres3,P_Pres4, P_Pres5, P_Pres6;
 //Propulsion Pressure Sensors (NON-PAIR)
 double P_Tem0,P_Tem1,P_Tem2,P_Tem3,P_Tem4,P_Tem5,P_Tem6,P_Tem7,P_Tem8;
 
