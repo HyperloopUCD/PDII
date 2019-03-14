@@ -16,7 +16,7 @@ void sensor_health(Sensor* sensor, int second)
     }
     //If sensor is pair...
     //If both sensors have same value, health NOMINAL
-    //If both sensors deviate, values must be
+    //If both sensors deviate, values must not exceed 2 SD from mean
     if(sensor->is_pair == PAIR)
     {
         if(sensor->data != sensor->paired_sensor->data)
@@ -45,7 +45,7 @@ void sensor_health(Sensor* sensor, int second)
     }
     else
     {
-
+        
     }
 }
 
